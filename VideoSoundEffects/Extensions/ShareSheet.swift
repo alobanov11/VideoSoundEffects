@@ -12,7 +12,7 @@ struct ShareSheet: UIViewControllerRepresentable {
 	let excludedActivityTypes: [UIActivity.ActivityType]? = nil
 	let callback: Callback? = nil
 
-	func makeUIViewController(context: Context) -> UIActivityViewController {
+	func makeUIViewController(context _: Context) -> UIActivityViewController {
 		let controller = UIActivityViewController(
 			activityItems: self.activityItems,
 			applicationActivities: self.applicationActivities
@@ -22,5 +22,5 @@ struct ShareSheet: UIViewControllerRepresentable {
 		return controller
 	}
 
-	func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
+	func updateUIViewController(_: UIActivityViewController, context _: Context) {}
 }

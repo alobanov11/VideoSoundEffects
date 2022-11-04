@@ -2,13 +2,13 @@
 //  Created by Антон Лобанов on 04.11.2022.
 //
 
-import SwiftUI
 import AVFoundation
+import SwiftUI
 
 struct CameraContentView: UIViewRepresentable {
 	@ObservedObject var viewModel: CameraViewModel
 
-	func makeUIView(context: Context) -> UIView {
+	func makeUIView(context _: Context) -> UIView {
 		let view = UIView(frame: CGFloat.screenFrame)
 		let layer = AVCaptureVideoPreviewLayer(session: self.viewModel.session)
 
@@ -23,5 +23,5 @@ struct CameraContentView: UIViewRepresentable {
 		return view
 	}
 
-	func updateUIView(_ uiView: UIView, context: Context) {}
+	func updateUIView(_: UIView, context _: Context) {}
 }

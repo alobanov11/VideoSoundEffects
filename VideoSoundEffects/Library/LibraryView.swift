@@ -2,14 +2,14 @@
 //  Created by Антон Лобанов on 03.11.2022.
 //
 
-import SwiftUI
 import PhotosUI
+import SwiftUI
 
 struct LibraryView: View {
 	@State private var videos: [VideoViewModel] = []
 	@State private var isCameraPresented = false
 
-    var body: some View {
+	var body: some View {
 		ZStack {
 			if videos.isEmpty {
 				Text("You library is boring and empty")
@@ -57,7 +57,7 @@ struct LibraryView: View {
 		}
 		.onAppear(perform: fetchVideos)
 		.onForeground(fetchVideos)
-    }
+	}
 }
 
 private extension LibraryView {
@@ -74,9 +74,9 @@ private extension LibraryView {
 }
 
 struct LibraryView_Previews: PreviewProvider {
-    static var previews: some View {
+	static var previews: some View {
 		NavigationStack {
 			LibraryView()
 		}
-    }
+	}
 }

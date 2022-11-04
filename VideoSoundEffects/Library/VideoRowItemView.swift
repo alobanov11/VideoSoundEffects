@@ -2,8 +2,8 @@
 //  Created by Антон Лобанов on 03.11.2022.
 //
 
-import SwiftUI
 import PhotosUI
+import SwiftUI
 
 struct VideoRowItemView: View {
 	@ObservedObject var viewModel: VideoViewModel

@@ -14,7 +14,7 @@ struct CommitView: View {
 	@State private var isShareSheetPresented = false
 	@State private var error = false
 
-    var body: some View {
+	var body: some View {
 		GeometryReader { geo in
 			ZStack(alignment: .bottom) {
 				VStack(alignment: .center) {
@@ -66,7 +66,7 @@ struct CommitView: View {
 
 					Slider(
 						value: $playerViewModel.currentTime,
-						in: 0...playerViewModel.duration,
+						in: 0 ... playerViewModel.duration,
 						step: 1
 					) {
 						Text("Speed").colorInvert()
@@ -163,7 +163,7 @@ struct CommitView: View {
 		.toolbar(.hidden, for: .navigationBar)
 		.onAppear(perform: fetchAsset)
 		.onDisappear(perform: playerViewModel.player.pause)
-    }
+	}
 }
 
 private extension CommitView {
@@ -210,8 +210,7 @@ private extension PlayerViewModel {
 }
 
 struct CommitView_Previews: PreviewProvider {
-    static var previews: some View {
+	static var previews: some View {
 		CommitView(videoViewModel: VideoViewModel(asset: .init()))
-    }
+	}
 }
-

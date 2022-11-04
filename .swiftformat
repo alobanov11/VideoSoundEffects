@@ -1,0 +1,17 @@
+--exclude Main/Third Party
+--exclude MainKit/Functional/Streaming/Clients
+--exclude MainKit/Functional/Streaming/DTOs
+--exclude Main/Resources
+--exclude MainKit/Platform
+--exclude Carthage
+--swiftversion 5.1
+
+--indent tab
+--self insert
+--elseposition next-line
+--guardelse auto
+--maxwidth 320
+--modifierorder acl,override
+--wraparguments before-first
+--wrapcollections before-first
+--xcodeindentation enabled

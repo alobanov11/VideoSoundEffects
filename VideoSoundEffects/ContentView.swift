@@ -2,16 +2,16 @@
 //  Created by Антон Лобанов on 03.11.2022.
 //
 
-import SwiftUI
 import AVKit
 import PhotosUI
+import SwiftUI
 
 struct ContentView: View {
 	@AppStorage("isCameraAuthorized") private var isCameraAuthorized = false
 	@AppStorage("isLibraryAuthorized") private var isLibraryAuthorized = false
 	@AppStorage("isAudioAuthorized") private var isAudioAuthorized = false
 
-    var body: some View {
+	var body: some View {
 		ZStack {
 			if isCameraAuthorized && isLibraryAuthorized && isAudioAuthorized {
 				NavigationStack {
@@ -27,11 +27,11 @@ struct ContentView: View {
 			isLibraryAuthorized = PHPhotoLibrary.authorizationStatus(for: .readWrite) == .authorized
 			isAudioAuthorized = AVAudioSession.sharedInstance().recordPermission == .granted
 		}
-    }
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	static var previews: some View {
+		ContentView()
+	}
 }

@@ -7,7 +7,8 @@ import Foundation
 public func onMainThread(_ block: @escaping () -> Void) {
 	if Thread.isMainThread {
 		block()
-	} else {
+	}
+	else {
 		DispatchQueue.main.async(execute: block)
 	}
 }

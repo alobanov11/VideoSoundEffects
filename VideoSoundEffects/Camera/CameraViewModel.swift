@@ -2,8 +2,8 @@
 //  Created by Антон Лобанов on 04.11.2022.
 //
 
-import Foundation
 import AVKit
+import Foundation
 import PhotosUI
 
 final class CameraViewModel: NSObject, ObservableObject {
@@ -41,7 +41,7 @@ final class CameraViewModel: NSObject, ObservableObject {
 				let cameraInput = try AVCaptureDeviceInput(device: cameraDevice)
 				let audioInput = try AVCaptureDeviceInput(device: audioDevice)
 
-				if self.session.canAddInput(cameraInput) && self.session.canAddInput(audioInput) {
+				if self.session.canAddInput(cameraInput), self.session.canAddInput(audioInput) {
 					self.session.addInput(cameraInput)
 					self.session.addInput(audioInput)
 				}
@@ -80,7 +80,7 @@ final class CameraViewModel: NSObject, ObservableObject {
 		guard let url = self.previewUrl else { return }
 		self.photoLibrary.performChanges({
 			PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: url)
-		}) { [weak self] saved, error in
+		}) { [weak self] _, error in
 			if let error {
 				self?.error = true
 				print(error)
@@ -93,7 +93,7 @@ final class CameraViewModel: NSObject, ObservableObject {
 }
 
 extension CameraViewModel: AVCaptureFileOutputRecordingDelegate {
-	func fileOutput(_ output: AVCaptureFileOutput, didFinishRecordingTo outputFileURL: URL, from connections: [AVCaptureConnection], error: Error?) {
+	func fileOutput(_: AVCaptureFileOutput, didFinishRecordingTo outputFileURL: URL, from _: [AVCaptureConnection], error: Error?) {
 		if let error {
 			self.error = true
 			print(error)

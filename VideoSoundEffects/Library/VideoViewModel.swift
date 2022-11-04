@@ -2,8 +2,8 @@
 //  Created by Антон Лобанов on 03.11.2022.
 //
 
-import SwiftUI
 import PhotosUI
+import SwiftUI
 
 final class VideoViewModel: ObservableObject, Identifiable {
 	let duration: TimeInterval

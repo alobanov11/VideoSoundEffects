@@ -2,8 +2,8 @@
 //  Created by Антон Лобанов on 03.11.2022.
 //
 
-import Combine
 import AVKit
+import Combine
 
 final class PlayerViewModel: ObservableObject {
 	let player = AVPlayer()
@@ -35,9 +35,9 @@ final class PlayerViewModel: ObservableObject {
 	}
 
 	init() {
-		$isEditingCurrentTime
+		self.$isEditingCurrentTime
 			.dropFirst()
-			.filter({ $0 == false })
+			.filter { $0 == false }
 			.sink(receiveValue: { [weak self] _ in
 				guard let self else { return }
 				let seekTime = CMTime(seconds: self.currentTime, preferredTimescale: 1)
@@ -48,9 +48,9 @@ final class PlayerViewModel: ObservableObject {
 				}
 				if self.player.rate != 0 { self.player.play() }
 			})
-			.store(in: &subscriptions)
+			.store(in: &self.subscriptions)
 
-		player.publisher(for: \.timeControlStatus)
+		self.player.publisher(for: \.timeControlStatus)
 			.sink { [weak self] status in
 				switch status {
 				case .playing:
@@ -65,11 +65,11 @@ final class PlayerViewModel: ObservableObject {
 					break
 				}
 			}
-			.store(in: &subscriptions)
+			.store(in: &self.subscriptions)
 
-		timeObserver = player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 1, preferredTimescale: 1), queue: .main) { [weak self] time in
+		self.timeObserver = self.player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 1, preferredTimescale: 1), queue: .main) { [weak self] time in
 			guard let self else { return }
-			if self.isEditingCurrentTime == false && self.isSeeking == false {
+			if self.isEditingCurrentTime == false, self.isSeeking == false {
 				self.currentTime = time.seconds
 			}
 		}
@@ -93,11 +93,11 @@ final class PlayerViewModel: ObservableObject {
 		let item = AVPlayerItem(asset: asset)
 
 		item.publisher(for: \.status)
-			.filter({ $0 == .readyToPlay })
+			.filter { $0 == .readyToPlay }
 			.sink(receiveValue: { [weak self] _ in
 				self?.duration = item.asset.duration.seconds
 			})
-			.store(in: &subscriptions)
+			.store(in: &self.subscriptions)
 
 		self.player.replaceCurrentItem(with: item)
 	}
@@ -147,7 +147,7 @@ final class PlayerViewModel: ObservableObject {
 		let dirPaths = self.fileManager.urls(for: .documentDirectory, in: .userDomainMask)
 		let fileName = "VideoSoundEffects_Video.mp4"
 		let fileUrl = dirPaths[0].appendingPathComponent(fileName)
-		
+
 		self.player.pause()
 		self.exportSession?.cancelExport()
 		self.exportTimer?.invalidate()

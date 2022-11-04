@@ -2,16 +2,16 @@
 //  Created by Антон Лобанов on 03.11.2022.
 //
 
-import SwiftUI
-import PhotosUI
 import AVKit
+import PhotosUI
+import SwiftUI
 
 struct PermissionsView: View {
 	@AppStorage("isCameraAuthorized") var isCameraAuthorized = false
 	@AppStorage("isLibraryAuthorized") var isLibraryAuthorized = false
 	@AppStorage("isAudioAuthorized") var isAudioAuthorized = false
 
-    var body: some View {
+	var body: some View {
 		VStack(spacing: 24) {
 			Spacer()
 
@@ -77,7 +77,7 @@ struct PermissionsView: View {
 			.padding(.bottom)
 		}
 		.padding(.horizontal, 48)
-    }
+	}
 }
 
 private extension PermissionsView {
@@ -107,7 +107,7 @@ private extension PermissionsView {
 }
 
 struct PermissionsView_Previews: PreviewProvider {
-    static var previews: some View {
-        PermissionsView()
-    }
+	static var previews: some View {
+		PermissionsView()
+	}
 }

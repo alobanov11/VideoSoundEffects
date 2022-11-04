@@ -2,8 +2,8 @@
 //  Created by Антон Лобанов on 04.11.2022.
 //
 
-import SwiftUI
 import AVKit
+import SwiftUI
 
 struct CameraContentPreview: View {
 	let url: URL
@@ -23,16 +23,15 @@ struct CameraContentPreview: View {
 	}
 }
 
+struct AVPlayerControllerRepresented: UIViewControllerRepresentable {
+	var player: AVPlayer
 
-struct AVPlayerControllerRepresented : UIViewControllerRepresentable {
-	var player : AVPlayer
-
-	func makeUIViewController(context: Context) -> AVPlayerViewController {
+	func makeUIViewController(context _: Context) -> AVPlayerViewController {
 		let controller = AVPlayerViewController()
-		controller.player = player
+		controller.player = self.player
 		controller.showsPlaybackControls = false
 		return controller
 	}
 
-	func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {}
+	func updateUIViewController(_: AVPlayerViewController, context _: Context) {}
 }
