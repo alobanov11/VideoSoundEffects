@@ -6,7 +6,7 @@
 --exclude Carthage
 --swiftversion 5.1
 
---indent tab
+--indent 4
 --self insert
 --elseposition next-line
 --guardelse auto

@@ -1,16 +1,18 @@
 # VSE - Video Sound Effects
 
+Video Sound Effects - the app which allows you to apply sound filter to a video from your library or camera.
+
 <p align="center">
-	<img src="Assets/HomeScreen.jpeg" width="375" />
-	<img src="Assets/CommitScreen.jpeg" width="375" />
+	<img src="Assets/HomeScreen.jpg" width="375" />
+	<img src="Assets/CommitScreen.jpg" width="375" />
 </p>
 
 ## Features
 
 - Pure SwiftUI
-- Custom camera & audio player screen
-- Apply multiply audio to a video using AVKit and export it
 - No third party libraries
+- Custom camera & player screen
+- Apply multiply filters to a video
 
 ## Requirements
 
@@ -20,15 +22,15 @@
 ## History and Plans
 
 - [x] Create and upload to AppStore `In testflight`
+- [ ] Divide logic into separate objects
 - [ ] Select architecture
 - [ ] Handling errors & unexpected behaviour
-- [ ] Add more sounds
+- [ ] Add more effects
 - [ ] Create original app icon
 - [ ] Create onboarding screen
 - [ ] Integrate fastlane / firebase
 - [ ] Add analytics
 - [ ] Add unit tests
-- [ ] Add voice effect
 
 ## Links
 

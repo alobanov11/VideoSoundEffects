@@ -11,33 +11,23 @@
 		E224C1082913F5BD0008534D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C1072913F5BD0008534D /* ContentView.swift */; };
 		E224C10A2913F5BE0008534D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E224C1092913F5BE0008534D /* Assets.xcassets */; };
 		E224C1172913F7170008534D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C1162913F7170008534D /* CameraView.swift */; };
-		E224C11C2913F7E20008534D /* CommitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C11B2913F7E20008534D /* CommitView.swift */; };
 		E224C1222913FADD0008534D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C1212913FADD0008534D /* LibraryView.swift */; };
 		E224C1252914030D0008534D /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C1242914030D0008534D /* PermissionsView.swift */; };
 		E224C127291415EE0008534D /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C126291415EE0008534D /* VideoViewModel.swift */; };
 		E224C12B291416250008534D /* VideoRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C12A291416250008534D /* VideoRowItemView.swift */; };
-		E224C12D291444570008534D /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C12C291444570008534D /* Sound.swift */; };
-		E224C12F29144A720008534D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C12E29144A720008534D /* PlayerView.swift */; };
-		E224C13329144B0E0008534D /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224C13229144B0E0008534D /* PlayerViewModel.swift */; };
-		E224C140291455810008534D /* children-happy-countdown-923.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C135291455810008534D /* children-happy-countdown-923.wav */; };
-		E224C141291455810008534D /* long-pop-2358.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C136291455810008534D /* long-pop-2358.wav */; };
-		E224C142291455810008534D /* joke-drums-578.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C137291455810008534D /* joke-drums-578.wav */; };
-		E224C143291455810008534D /* happy-party-horn-sound-530.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C138291455810008534D /* happy-party-horn-sound-530.wav */; };
-		E224C144291455810008534D /* falling-male-scream-391.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C139291455810008534D /* falling-male-scream-391.wav */; };
-		E224C145291455810008534D /* small-crowd-laugh-and-applause-422.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C13A291455810008534D /* small-crowd-laugh-and-applause-422.wav */; };
-		E224C146291455810008534D /* quick-funny-kiss-2193.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C13B291455810008534D /* quick-funny-kiss-2193.wav */; };
-		E224C147291455810008534D /* sad-game-over-trombone-471.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C13C291455810008534D /* sad-game-over-trombone-471.wav */; };
-		E224C148291455810008534D /* clown-horn-at-circus-715.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C13D291455810008534D /* clown-horn-at-circus-715.wav */; };
-		E224C149291455810008534D /* cartoon-voice-laugh-343.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C13E291455810008534D /* cartoon-voice-laugh-343.wav */; };
-		E224C14A291455810008534D /* winning-an-extra-bonus-2060.wav in Resources */ = {isa = PBXBuildFile; fileRef = E224C13F291455810008534D /* winning-an-extra-bonus-2060.wav */; };
 		E2467A892914F79B001F6405 /* CGFloat+UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A882914F79B001F6405 /* CGFloat+UIScreen.swift */; };
 		E2467A8B2914F7E4001F6405 /* DispatchQueue+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A8A2914F7E4001F6405 /* DispatchQueue+Helpers.swift */; };
-		E2467A8E2914FEE8001F6405 /* PlayerLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A8D2914FEE8001F6405 /* PlayerLayerView.swift */; };
 		E2467A922915373D001F6405 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A912915373D001F6405 /* ShareSheet.swift */; };
 		E2467A9729155C76001F6405 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A9629155C76001F6405 /* CameraViewModel.swift */; };
 		E2467A9929155C97001F6405 /* CameraContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A9829155C97001F6405 /* CameraContentView.swift */; };
 		E2467A9B29155CB3001F6405 /* CameraContentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A9A29155CB3001F6405 /* CameraContentPreview.swift */; };
 		E2467A9D29157907001F6405 /* View+ScenePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467A9C29157907001F6405 /* View+ScenePhase.swift */; };
+		E2467AAA29163845001F6405 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467AA929163845001F6405 /* PlayerView.swift */; };
+		E2467AAF29163855001F6405 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467AAB29163855001F6405 /* PlayerViewModel.swift */; };
+		E2467AB029163855001F6405 /* PlaybackValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2467AAC29163855001F6405 /* PlaybackValue.swift */; };
+		E263700929166575007375B4 /* PlayerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E263700829166575007375B4 /* PlayerContentView.swift */; };
+		E263700B2916658C007375B4 /* PlayerContentLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E263700A2916658C007375B4 /* PlayerContentLayerView.swift */; };
+		E263700D2917BF10007375B4 /* CameraContentLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E263700C2917BF10007375B4 /* CameraContentLayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,33 +36,24 @@
 		E224C1072913F5BD0008534D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E224C1092913F5BE0008534D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E224C1162913F7170008534D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		E224C11B2913F7E20008534D /* CommitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitView.swift; sourceTree = "<group>"; };
 		E224C1212913FADD0008534D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		E224C1242914030D0008534D /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
 		E224C126291415EE0008534D /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 		E224C12A291416250008534D /* VideoRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRowItemView.swift; sourceTree = "<group>"; };
-		E224C12C291444570008534D /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
-		E224C12E29144A720008534D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		E224C13229144B0E0008534D /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
-		E224C135291455810008534D /* children-happy-countdown-923.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "children-happy-countdown-923.wav"; sourceTree = "<group>"; };
-		E224C136291455810008534D /* long-pop-2358.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "long-pop-2358.wav"; sourceTree = "<group>"; };
-		E224C137291455810008534D /* joke-drums-578.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "joke-drums-578.wav"; sourceTree = "<group>"; };
-		E224C138291455810008534D /* happy-party-horn-sound-530.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "happy-party-horn-sound-530.wav"; sourceTree = "<group>"; };
-		E224C139291455810008534D /* falling-male-scream-391.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "falling-male-scream-391.wav"; sourceTree = "<group>"; };
-		E224C13A291455810008534D /* small-crowd-laugh-and-applause-422.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "small-crowd-laugh-and-applause-422.wav"; sourceTree = "<group>"; };
-		E224C13B291455810008534D /* quick-funny-kiss-2193.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "quick-funny-kiss-2193.wav"; sourceTree = "<group>"; };
-		E224C13C291455810008534D /* sad-game-over-trombone-471.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sad-game-over-trombone-471.wav"; sourceTree = "<group>"; };
-		E224C13D291455810008534D /* clown-horn-at-circus-715.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clown-horn-at-circus-715.wav"; sourceTree = "<group>"; };
-		E224C13E291455810008534D /* cartoon-voice-laugh-343.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cartoon-voice-laugh-343.wav"; sourceTree = "<group>"; };
-		E224C13F291455810008534D /* winning-an-extra-bonus-2060.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "winning-an-extra-bonus-2060.wav"; sourceTree = "<group>"; };
 		E2467A882914F79B001F6405 /* CGFloat+UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+UIScreen.swift"; sourceTree = "<group>"; };
 		E2467A8A2914F7E4001F6405 /* DispatchQueue+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Helpers.swift"; sourceTree = "<group>"; };
-		E2467A8D2914FEE8001F6405 /* PlayerLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLayerView.swift; sourceTree = "<group>"; };
 		E2467A912915373D001F6405 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		E2467A9629155C76001F6405 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 		E2467A9829155C97001F6405 /* CameraContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraContentView.swift; sourceTree = "<group>"; };
 		E2467A9A29155CB3001F6405 /* CameraContentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraContentPreview.swift; sourceTree = "<group>"; };
 		E2467A9C29157907001F6405 /* View+ScenePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ScenePhase.swift"; sourceTree = "<group>"; };
+		E2467AA929163845001F6405 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		E2467AAB29163855001F6405 /* PlayerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		E2467AAC29163855001F6405 /* PlaybackValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackValue.swift; sourceTree = "<group>"; };
+		E263700829166575007375B4 /* PlayerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerContentView.swift; sourceTree = "<group>"; };
+		E263700A2916658C007375B4 /* PlayerContentLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerContentLayerView.swift; sourceTree = "<group>"; };
+		E263700C2917BF10007375B4 /* CameraContentLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraContentLayerView.swift; sourceTree = "<group>"; };
+		E263700E2917CCCD007375B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +74,7 @@
 				E224C1032913F5BD0008534D /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E224C1032913F5BD0008534D /* Products */ = {
 			isa = PBXGroup;
@@ -105,16 +87,15 @@
 		E224C1042913F5BD0008534D /* VideoSoundEffects */ = {
 			isa = PBXGroup;
 			children = (
+				E263700E2917CCCD007375B4 /* Info.plist */,
 				E224C1052913F5BD0008534D /* App.swift */,
 				E224C1072913F5BD0008534D /* ContentView.swift */,
 				E224C1092913F5BE0008534D /* Assets.xcassets */,
 				E224C1132913F6040008534D /* Camera */,
-				E224C11A2913F7420008534D /* Commit */,
 				E2467A872914F78A001F6405 /* Extensions */,
 				E224C1202913FACA0008534D /* Library */,
+				E2467AA82916381F001F6405 /* Player */,
 				E224C123291402FD0008534D /* Permissions */,
-				E2467A8C2914FDB6001F6405 /* Player */,
-				E224C134291455550008534D /* Sounds */,
 			);
 			path = VideoSoundEffects;
 			sourceTree = "<group>";
@@ -122,20 +103,13 @@
 		E224C1132913F6040008534D /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				E224C1162913F7170008534D /* CameraView.swift */,
 				E2467A9629155C76001F6405 /* CameraViewModel.swift */,
+				E224C1162913F7170008534D /* CameraView.swift */,
 				E2467A9829155C97001F6405 /* CameraContentView.swift */,
+				E263700C2917BF10007375B4 /* CameraContentLayerView.swift */,
 				E2467A9A29155CB3001F6405 /* CameraContentPreview.swift */,
 			);
 			path = Camera;
-			sourceTree = "<group>";
-		};
-		E224C11A2913F7420008534D /* Commit */ = {
-			isa = PBXGroup;
-			children = (
-				E224C11B2913F7E20008534D /* CommitView.swift */,
-			);
-			path = Commit;
 			sourceTree = "<group>";
 		};
 		E224C1202913FACA0008534D /* Library */ = {
@@ -156,25 +130,6 @@
 			path = Permissions;
 			sourceTree = "<group>";
 		};
-		E224C134291455550008534D /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				E224C12C291444570008534D /* Sound.swift */,
-				E224C13E291455810008534D /* cartoon-voice-laugh-343.wav */,
-				E224C135291455810008534D /* children-happy-countdown-923.wav */,
-				E224C13D291455810008534D /* clown-horn-at-circus-715.wav */,
-				E224C139291455810008534D /* falling-male-scream-391.wav */,
-				E224C138291455810008534D /* happy-party-horn-sound-530.wav */,
-				E224C137291455810008534D /* joke-drums-578.wav */,
-				E224C136291455810008534D /* long-pop-2358.wav */,
-				E224C13B291455810008534D /* quick-funny-kiss-2193.wav */,
-				E224C13C291455810008534D /* sad-game-over-trombone-471.wav */,
-				E224C13A291455810008534D /* small-crowd-laugh-and-applause-422.wav */,
-				E224C13F291455810008534D /* winning-an-extra-bonus-2060.wav */,
-			);
-			path = Sounds;
-			sourceTree = "<group>";
-		};
 		E2467A872914F78A001F6405 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,12 +141,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E2467A8C2914FDB6001F6405 /* Player */ = {
+		E2467AA82916381F001F6405 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				E224C13229144B0E0008534D /* PlayerViewModel.swift */,
-				E224C12E29144A720008534D /* PlayerView.swift */,
-				E2467A8D2914FEE8001F6405 /* PlayerLayerView.swift */,
+				E2467AAC29163855001F6405 /* PlaybackValue.swift */,
+				E2467AAB29163855001F6405 /* PlayerViewModel.swift */,
+				E2467AA929163845001F6405 /* PlayerView.swift */,
+				E263700829166575007375B4 /* PlayerContentView.swift */,
+				E263700A2916658C007375B4 /* PlayerContentLayerView.swift */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -258,18 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E224C149291455810008534D /* cartoon-voice-laugh-343.wav in Resources */,
-				E224C146291455810008534D /* quick-funny-kiss-2193.wav in Resources */,
-				E224C145291455810008534D /* small-crowd-laugh-and-applause-422.wav in Resources */,
-				E224C144291455810008534D /* falling-male-scream-391.wav in Resources */,
-				E224C141291455810008534D /* long-pop-2358.wav in Resources */,
-				E224C14A291455810008534D /* winning-an-extra-bonus-2060.wav in Resources */,
-				E224C147291455810008534D /* sad-game-over-trombone-471.wav in Resources */,
-				E224C148291455810008534D /* clown-horn-at-circus-715.wav in Resources */,
 				E224C10A2913F5BE0008534D /* Assets.xcassets in Resources */,
-				E224C143291455810008534D /* happy-party-horn-sound-530.wav in Resources */,
-				E224C142291455810008534D /* joke-drums-578.wav in Resources */,
-				E224C140291455810008534D /* children-happy-countdown-923.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,22 +229,23 @@
 				E2467A9D29157907001F6405 /* View+ScenePhase.swift in Sources */,
 				E2467A8B2914F7E4001F6405 /* DispatchQueue+Helpers.swift in Sources */,
 				E2467A922915373D001F6405 /* ShareSheet.swift in Sources */,
+				E263700929166575007375B4 /* PlayerContentView.swift in Sources */,
+				E2467AAA29163845001F6405 /* PlayerView.swift in Sources */,
 				E224C1172913F7170008534D /* CameraView.swift in Sources */,
 				E2467A9B29155CB3001F6405 /* CameraContentPreview.swift in Sources */,
 				E224C1082913F5BD0008534D /* ContentView.swift in Sources */,
 				E224C1062913F5BD0008534D /* App.swift in Sources */,
 				E2467A9729155C76001F6405 /* CameraViewModel.swift in Sources */,
-				E224C12F29144A720008534D /* PlayerView.swift in Sources */,
-				E2467A8E2914FEE8001F6405 /* PlayerLayerView.swift in Sources */,
 				E224C1222913FADD0008534D /* LibraryView.swift in Sources */,
 				E224C127291415EE0008534D /* VideoViewModel.swift in Sources */,
+				E263700D2917BF10007375B4 /* CameraContentLayerView.swift in Sources */,
 				E2467A892914F79B001F6405 /* CGFloat+UIScreen.swift in Sources */,
 				E224C1252914030D0008534D /* PermissionsView.swift in Sources */,
-				E224C11C2913F7E20008534D /* CommitView.swift in Sources */,
-				E224C13329144B0E0008534D /* PlayerViewModel.swift in Sources */,
+				E2467AB029163855001F6405 /* PlaybackValue.swift in Sources */,
+				E263700B2916658C007375B4 /* PlayerContentLayerView.swift in Sources */,
 				E2467A9929155C97001F6405 /* CameraContentView.swift in Sources */,
-				E224C12D291444570008534D /* Sound.swift in Sources */,
 				E224C12B291416250008534D /* VideoRowItemView.swift in Sources */,
+				E2467AAF29163855001F6405 /* PlayerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +372,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = LUY4875ZZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoSoundEffects/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VSE;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please provide us this permission";
@@ -462,11 +410,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = LUY4875ZZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoSoundEffects/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VSE;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please provide us this permission";

@@ -2,26 +2,22 @@
 //  Created by Антон Лобанов on 04.11.2022.
 //
 
-import AVFoundation
 import SwiftUI
 
+protocol ICameraContentLayerConfigurator {
+    func configureLayer(_ layer: ICameraContentLayer)
+}
+
 struct CameraContentView: UIViewRepresentable {
-	@ObservedObject var viewModel: CameraViewModel
+    let configurator: ICameraContentLayerConfigurator
 
-	func makeUIView(context _: Context) -> UIView {
-		let view = UIView(frame: CGFloat.screenFrame)
-		let layer = AVCaptureVideoPreviewLayer(session: self.viewModel.session)
+    func makeUIView(context _: Context) -> UIView {
+        let view = CameraContentLayerView()
 
-		layer.frame = view.frame
-		layer.videoGravity = .resizeAspectFill
-		view.layer.addSublayer(layer)
+        self.configurator.configureLayer(view)
 
-		onBackgroundThread {
-			viewModel.session.startRunning()
-		}
+        return view
+    }
 
-		return view
-	}
-
-	func updateUIView(_: UIView, context _: Context) {}
+    func updateUIView(_: UIView, context _: Context) {}
 }

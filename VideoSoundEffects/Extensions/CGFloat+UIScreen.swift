@@ -5,15 +5,15 @@
 import SwiftUI
 
 extension CGFloat {
-	static var screenFrame: CGRect {
-		UIScreen.main.bounds
-	}
+    static var screenFrame: CGRect {
+        UIScreen.main.bounds
+    }
 
-	static var screenWidth: CGFloat {
-		self.screenFrame.width
-	}
+    static var screenWidth: CGFloat {
+        self.screenFrame.width
+    }
 
-	static var screenHeight: CGFloat {
-		self.screenFrame.height
-	}
+    static var screenHeight: CGFloat {
+        self.screenFrame.height
+    }
 }
